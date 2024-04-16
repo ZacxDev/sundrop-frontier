@@ -1,0 +1,55 @@
+# Elixir / Phoenix specific
+/_build/
+/db/*.sqlite3
+/deps/
+/priv/static/
+*.ez
+*.beam
+mix.lock
+config/*.secret.exs
+test/*.exs
+*.backup
+
+# Logs
+/logs/
+log/
+*.log
+
+# Temp files
+/tmp/
+*.tmp
+*.temp
+
+# Files created by mix
+mix.exs
+*.exs
+
+# Node.js / npm / frontend build artifacts
+/node_modules/
+/assets/node_modules/
+/assets/package-lock.json
+/assets/yarn.lock
+npm-debug.log
+yarn-error.log
+
+# Static assets (you might want to commit your initial assets)
+/priv/static/*
+
+# Ignore generated static resources if you're using Webpack or similar
+# Uncomment the next line if applicable
+#/priv/static/js/
+#/priv/static/css/
+
+# IDE specific files
+/.idea/
+/.vscode/
+*.swp
+*~
+.DS_Store
+
+# System files
+Thumbs.db
+.DS_Store
+
+.direnv
+node_modules
